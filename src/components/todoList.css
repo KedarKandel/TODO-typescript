@@ -1,0 +1,42 @@
+
+
+.todo-list-container{
+    display: flex;
+   align-items: center;
+    margin-top: .2rem;
+   background-color: rgb(7, 86, 117);
+    color: white;
+   border-radius: 5px;
+   width: 20rem;
+ 
+   text-overflow: ellipsis;
+   overflow: hidden;
+   white-space: nowrap;
+ 
+  }
+  .todo-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 10px;
+  }
+
+  
+  .checkbox{
+    width: 15px;
+    height: 20px;
+   margin-top: 3px;
+  }
+
+  
+  .delete-icon{
+    font-size: medium;
+    background-color: none;
+    color: crimson;
+    cursor: pointer;
+  }
+  
+  .deadline{
+    color: rgb(225, 226, 151);
+  }
